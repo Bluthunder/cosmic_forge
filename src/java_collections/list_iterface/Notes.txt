@@ -1,0 +1,22 @@
+AbstractList, CopyOnWriteArrayList, AbstractSequentialList are classes that implements the List Interface.
+
+1. AbstractList - This class is used to implement an unmodifiable list, for which one needs to only extend this
+   AbstractList class and implements only the get() and size() method.
+
+
+2. CopyOnWriteArrayList - This class is used to implement the list interface. This is an enhanced version of
+   ArrayList in which all the modifications(add, set, remove) are implemented by making a fresh copy of list.
+
+
+3. AbstractSequentialList - This class implements the collection interface and AbstractCollection class. This class
+   is used to implement an unmodifiable list, for which one needs to only extend this AbstractList class and implements
+   only get() and size() methods.
+
+
+
+4. All methods in vector are synchronized. Vector is thread safe
+
+5. CopyOnWriteArraylist are also synchronized version of arraylist. Better performance compared to vectors and thread safe compared to ArrayList.
+
+6. The Iterators returned by the Vector class are fail-fast. In the case of concurrent modification,
+   it fails and throws the ConcurrentModificationException.

@@ -1,0 +1,17 @@
+Hashmap is part of Java's Collection since java 1.2. Found in java.util package
+
+It provides a basic implementation of Map interface of Java. HashMap stores the data in (Key, Value) pairs and can be accessed by index of another type.
+One object is used as a key(index) to another Object (value).
+
+If we try to insert the duplicate key in hashmap, it will replace element of corresponding key.
+
+HashMap is similar to HashTable but it is unsynchronized.
+
+Allows to store the null keys as well, but there should be only one null key object.
+
+No order is maintained in map.
+
+
+public class Hashmap<K, V> extends AbstractMap<K, V> implements Cloneable, Serializable
+
+Keys im hashmap is valid if it implements hashcode(), and equal() Methods.
