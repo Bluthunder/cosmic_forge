@@ -15,3 +15,29 @@ No order is maintained in map.
 public class Hashmap<K, V> extends AbstractMap<K, V> implements Cloneable, Serializable
 
 Keys im hashmap is valid if it implements hashcode(), and equal() Methods.
+
+*******************************************
+
+Characteristics of Java HashMap
+
+1. Fast access time - retrieval and insertion is fast, constant time O(1)
+2. Uses Hashing function -
+3. Stores Key Value Pairs -
+4. Supports Null keys and values - Null Key can have value, and Key can have a Null Value
+5. Not Ordered
+6. Allows duplicates - HashMap allows duplicate values, but not duplicate keys. If a duplicate Key is added, the previous value associated with key is overwritten.
+7. Thread-Unsafe - HashMap are not thread-safe, which mean that if thread access the same hashmap simultaneously, it can lead to data inconsistencies. For thread safety we can use
+   ConcurrentHashMap.
+8. Capacity and Load Factor - HashMap have a capacity, which is the number of element that it cab hold, and load factor, which is measure of how full the hashmap can be before it
+   is resized.
+
+Java HashMap Constructors
+
+4 Constructors
+a. HashMap()
+b. HashMap(int initialCapacity)
+c. HashMaP(int initialCapacity, float loadFactor)
+d. HashMap(Map map)
+
+
+Mapping to increment a int value of mapping: map.compute(key, (k, v) -> (v == null) ? 1 : v+1)
