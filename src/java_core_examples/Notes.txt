@@ -1,0 +1,5 @@
+There are 4 types of constructor
+1. No Args Constructor
+2. Parametrized Constructor
+3. Default Constructor
+4. Copy Constructor

@@ -1,0 +1,11 @@
+Java HashSet class implements the Set Interface, backed by a hash table which is actually a HashMap Instance.
+
+1. Duplicate Values are not allowed.
+2. Objects inserted are not guaranteed to be inserted in the same order. Objects are inserted based on their hash code.
+3. Null Elements are allowed in hashset.
+4. HashSet also implements Serializable and Cloneable interfaces.
+
+
+Declaration
+public class HashSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Serializable
+
