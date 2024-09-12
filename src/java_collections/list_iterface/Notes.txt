@@ -12,11 +12,12 @@ AbstractList, CopyOnWriteArrayList, AbstractSequentialList are classes that impl
    is used to implement an unmodifiable list, for which one needs to only extend this AbstractList class and implements
    only get() and size() methods.
 
-
-
 4. All methods in vector are synchronized. Vector is thread safe
 
 5. CopyOnWriteArraylist are also synchronized version of arraylist. Better performance compared to vectors and thread safe compared to ArrayList.
 
 6. The Iterators returned by the Vector class are fail-fast. In the case of concurrent modification,
    it fails and throws the ConcurrentModificationException.
+
+
+
